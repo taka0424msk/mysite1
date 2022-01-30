@@ -7,7 +7,6 @@
         <a href="{{ route('posts.create') }}">[Add]</a>
     </h1>
     <ul>
-        aaaaaaaaa
         @forelse ($posts as $post)
             <li>
                 <a href="{{ route('posts.show', $post) }}">
