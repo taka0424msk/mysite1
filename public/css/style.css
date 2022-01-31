@@ -35,6 +35,11 @@ h1 > p {
     line-height: 1.6;
 }
 
+h2 {
+    font-size: 16px;
+    margin-top: 40px;
+}
+
 input,
 textarea {
     padding: 4px;
@@ -73,4 +78,16 @@ button {
     color: #15c;
     cursor: pointer;
     vertical-align: 1px;
+}
+
+.comment-form {
+    display: flex;
+}
+
+.comment-form > button {
+    margin-left: 8px;
+}
+
+.delete-comment {
+    display: inline-block;
 }
